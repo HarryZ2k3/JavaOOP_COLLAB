@@ -4,13 +4,13 @@ class Triangle
     private double b;
     private double c;
     
-    public Triangle(double side1, double side2,double side 3)
+    public Triangle(double a, double b,double c)
     {
         this.a = a;
         this.b = b;
         this.c = c;
     }
-    public static void TriangleVerification()
+    public void Verify()
     {
         boolean isTriangle = true;
         //Not triangle
@@ -24,17 +24,17 @@ class Triangle
             //Equilateral
             if (a==b && a==c)
             {
-                System.out.println("This is a Equlateral triangle!")
+                System.out.println("This is a Equlateral triangle!");
             }
             //Isoceles
-            if (a=b && a!=c || a=c && a!=b || b=c && b!=a)
+            if (a==b && a!=c || a==c && a!=b || b==c && b!=a)
             {
                 System.out.println("This is an Isoceles triangle!");
             }
             //Scalene
             if (a!=b && a!=c && b!=c)
             {
-                System.out.prinln("This is a Scalene triangle!")
+                System.out.println("This is a Scalene triangle!");
             }   
         }
             
