@@ -1,3 +1,4 @@
+//Huynh Phuong Dai _ ITITWE21039
 class Triangle
 {
     private double a;
@@ -38,5 +39,14 @@ class Triangle
             }   
         }
             
+    }
+    public double getA() {
+        return a;
+    }
+    public double getB() {
+        return b;
+    }
+    public double getC() {
+        return c;
     }
 }

@@ -1,19 +1,21 @@
 //Huynh Phuong Dai - ITITWE21039
 public class Rectangle
 {
-    private double height;
-    private double width;
-    public Rectangle(double height, double width)
+    private int height;
+    private int width;
+    public Rectangle(int height, int width)
     {
-        if (this.height <= 0)
+        if (height <= 0)
         {
             System.out.println("*ERROR: Height attribute could not be lesser or equal to zero!");
-            this.height = 1;
+            height = 1;
+            this.height = height;
         }
-        if (this.width <= 0)
+        else if (width <= 0)
         {    
             System.out.println("*ERROR: Width attribute could not be lesser or equal to zero!");
-            this.width = 1;
+            width =1;
+            this.width = width;
         }
         else
         {
@@ -21,17 +23,23 @@ public class Rectangle
             this.width = width;
         }
     }
-    public double getHeight()
+    public int getHeight()
     {
         return height;
     }
-    public double getWidth()
+    public int getWidth()
     {
         return width;
     }
     public void VisualizeRectangle()
     {
-        
+        for (int i=0;i<=height;i++)
+        {
+            for(int j=0;j<=width;j++)
+            {
+                System.out.print("* ");
+            }
+            System.out.print("\n");
+        }
     }
-    
 }
