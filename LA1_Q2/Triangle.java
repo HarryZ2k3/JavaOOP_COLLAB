@@ -1,11 +1,11 @@
 //Huynh Phuong Dai _ ITITWE21039
 class Triangle
 {
-    private double a;
-    private double b;
-    private double c;
+    private int a;
+    private int b;
+    private int c;
     
-    public Triangle(double a, double b,double c)
+    public Triangle(int a, int b,int c)
     {
         this.a = a;
         this.b = b;
@@ -40,13 +40,16 @@ class Triangle
         }
             
     }
-    public double getA() {
+    public int getA() {
+        System.out.print("Side a:" + a + "\n");
         return a;
     }
-    public double getB() {
+    public int getB() {
+        System.out.print("Side b:" + b + "\n");
         return b;
     }
-    public double getC() {
+    public int getC() {
+        System.out.print("Side c:" + c + "\n");
         return c;
     }
 }
