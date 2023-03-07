@@ -1,5 +1,5 @@
 //ITITWE21039_HUYNH PHUONG DAI
-class Q2
+class Q2_L1
 {    
     public static void main(String[] args)
     {
