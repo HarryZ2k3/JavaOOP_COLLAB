@@ -15,14 +15,8 @@ public class Box
     public int getHeight() {
         return height;
     }
-    public void setHeight(int y) {
-        y = height;
-    }
     public int getWidth() {
         return width;
-    }
-    public void setWidth(int x) {
-        x = width;
     }
     
 }
