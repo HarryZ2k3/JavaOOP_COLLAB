@@ -7,10 +7,22 @@ public class Box
         height= 1;
         width = 1;
     }    
-    public Box(int x, int y)
+    public Box(int y, int x)
     {
-        x = height;
-        y = width;
+        y = height;
+        x = width;
+    }
+    public int getHeight() {
+        return height;
+    }
+    public void setHeight(int y) {
+        y = height;
+    }
+    public int getWidth() {
+        return width;
+    }
+    public void setWidth(int x) {
+        x = width;
     }
     
 }
