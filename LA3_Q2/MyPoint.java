@@ -1,5 +1,5 @@
 package LA3_Q2;
 
-public class MyPoint {
-    
+public class MyPoint extends MyTriangle {
+    public MyPoint
 }
