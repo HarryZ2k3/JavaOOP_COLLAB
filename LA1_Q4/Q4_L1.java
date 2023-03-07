@@ -1,7 +1,7 @@
 //ITITWE21039_HUYNH PHUONG DAI
 package LA1_Q4;
 import java.util.Scanner;
-public class Q4 
+public class Q4_L1 
 {   
     public static void main(String[] args)
     {
