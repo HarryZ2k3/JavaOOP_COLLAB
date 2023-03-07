@@ -23,11 +23,11 @@ public class Q1_L2
         switch(d1)
         {
             case NORTH:
-                for (int i=p1.getY;i<=NewBox.getHeight();i++)
+                for (int i=p1.getY();i<=NewBox.getHeight();i++)
                 {
                     p1.setY(p1.getY()+1);
                 }
-                for (int i=p1.getY;i>=0;i--)
+                for (int i=p1.getY();i>=0;i--)
                 {
                     p1.setY(p1.getY()-1);
                 }
