@@ -7,7 +7,7 @@ public class courses {
         return course_name;
     }
     public void setCourse_name(String course_name) {
-        let course_name=String.toUpperCase();
+        course_name.toUpperCase();
         this.course_name = course_name;
     }
     public int getId() {
@@ -20,7 +20,7 @@ public class courses {
         return credits;
     }
     public void setCredits(int credits) {
-        if (credit >= 0)
+        if (credits >= 0)
             this.credits = credits;
     }
     
