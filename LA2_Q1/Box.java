@@ -1,4 +1,4 @@
-public class Box 
+public class Box
 {
     private int height;
     private int width;
